@@ -15,3 +15,7 @@ how to use git/github
 	git commit -m 'write about what you have done'
 9. push the files to github:
 	git push
+10. create a new branch
+	git branch new_branch
+11. switch branch
+	git checkout new_branch
