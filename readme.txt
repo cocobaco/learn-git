@@ -15,7 +15,11 @@ how to use git/github
 	git commit -m 'write about what you have done'
 9. push the files to github (may use other branch name):
 	git push origin master
-10. create a new branch
+10. get files from github
+	git pull origin master
+11. create a new branch
 	git branch new_branch
-11. switch branch
+12. switch branch
 	git checkout new_branch
+13. see changes
+	git log
