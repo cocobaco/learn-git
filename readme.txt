@@ -8,6 +8,7 @@ how to use git/github
 	cd learn-git
 5. make local edits, make new files, inside that directory
 6. add files (-A here means all files in the dir):
+	git test1.py
 	git add -A
 7. see status (optional):
 	git status
@@ -23,3 +24,6 @@ how to use git/github
 	git checkout new_branch
 13. see changes
 	git log
+14. see differences between commits
+	git diff <commit-id1> <commit-id2>
+	git diff HEAD^ HEAD
