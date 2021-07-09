@@ -22,8 +22,11 @@ how to use git/github
 	git branch new_branch
 12. switch branch
 	git checkout new_branch
-13. see changes
+13. see changes (commit history)
 	git log
 14. see differences between commits
 	git diff <commit-id1> <commit-id2>
 	git diff HEAD^ HEAD
+15. discard local changes
+	git reset --hard HEAD
+	(https://stackoverflow.com/a/38777644/5421647)
